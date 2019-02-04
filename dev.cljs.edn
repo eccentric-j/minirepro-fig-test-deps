@@ -1,0 +1,6 @@
+^{:watch-dirs ["test" "src"]
+  :auto-testing true}
+{:main minirepro-fig-test-deps.core
+ :npm-deps     {"ws" "6.1.3"}
+ :install-deps true
+ :target :nodejs}
